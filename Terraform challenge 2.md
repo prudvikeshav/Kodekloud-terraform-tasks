@@ -24,7 +24,7 @@ In this challenge we will implement a simple LAMP stack using terraform and dock
 
 5.Create a terraform resource named mariadb_volume creating a docker volume with name=mariadb-volume
 
-6.Create a terraform resource named private_network and configure the following
+6.Create a terraform resource named private_network and configure the following:
      - Create a Docker network with name=my_network
 
      - Enable manual container attachment to the network.
