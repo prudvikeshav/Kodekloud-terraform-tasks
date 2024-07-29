@@ -18,7 +18,7 @@ In this challenge we will deploy several Kubernetes resources using terraform.
 
 3. Create a terraform resource webapp-service for kubernetes service with following specs:
 
-- Service name: webapp-service
+   - Service name: webapp-service
 
 - Service Type: NodePort
 
@@ -28,7 +28,7 @@ In this challenge we will deploy several Kubernetes resources using terraform.
 
 4. Create a terraform resource frontend for kubernetes deployment with following specs:
 
-- Deployment Name: frontend
+  | - Deployment Name: frontend
 
 - Deployment Labels = name: frontend
 
