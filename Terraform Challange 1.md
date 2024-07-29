@@ -1,4 +1,4 @@
-# **Welcome to the terraform challenge series#**
+# **Welcome to the terraform challenge series 1**
 
 In this challenge we will deploy several Kubernetes resources using terraform.
 
