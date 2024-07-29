@@ -16,7 +16,7 @@ In this challenge we will implement a simple LAMP stack using terraform and dock
      - Labels: challenge: second
 
 4.Create a terraform resource named mariadb-image for building docker image with following specifications:
-     - Image name: mariadb:challenge
+    - Image name: mariadb:challenge
 
      - Build context: lamp_stack/custom_db
 
