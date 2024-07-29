@@ -8,36 +8,36 @@ In this challenge we will deploy several Kubernetes resources using terraform.
 
 2. Configure terraform and provider settings within provider.tf file with following specifications:
   
-- Configure terraform to use hashicorp/kubernetes provider.
+   - Configure terraform to use hashicorp/kubernetes provider.
 
-- Specify the provider's local name: kubernetes
+   - Specify the provider's local name: kubernetes
 
-- Provider version: 2.11.0
+   - Provider version: 2.11.0
 
-- Configure kubernetes provider with path to your kubeconfig file: /root/.kube/config
+   - Configure kubernetes provider with path to your kubeconfig file: /root/.kube/config
 
 3. Create a terraform resource webapp-service for kubernetes service with following specs:
 
    - Service name: webapp-service
 
-- Service Type: NodePort
+   - Service Type: NodePort
 
-- Port: 8080
+   - Port: 8080
 
-- NodePort: 30080
+   - NodePort: 30080
 
 4. Create a terraform resource frontend for kubernetes deployment with following specs:
 
-   : Deployment Name: frontend
+   - Deployment Name: frontend
 
-    : Deployment Labels = name: frontend
+   - Deployment Labels = name: frontend
 
-    : Replicas: 4
+   - Replicas: 4
 
-   : Pod Labels = name: webapp
+   - Pod Labels = name: webapp
 
-   : Image: kodekloud/webapp-color:v1
+   - Image: kodekloud/webapp-color:v1
 
-   : Container name: simple-webapp
+   - Container name: simple-webapp
 
-   : Container port: 8080
+   - Container port: 8080
