@@ -28,16 +28,16 @@ In this challenge we will deploy several Kubernetes resources using terraform.
 
 4. Create a terraform resource frontend for kubernetes deployment with following specs:
 
-  | - Deployment Name: frontend
+   : Deployment Name: frontend
 
-- Deployment Labels = name: frontend
+    : Deployment Labels = name: frontend
 
-- Replicas: 4
+    : Replicas: 4
 
-- Pod Labels = name: webapp
+   : Pod Labels = name: webapp
 
-- Image: kodekloud/webapp-color:v1
+   : Image: kodekloud/webapp-color:v1
 
-- Container name: simple-webapp
+   : Container name: simple-webapp
 
-- Container port: 8080
+   : Container port: 8080
